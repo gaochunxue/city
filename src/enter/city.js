@@ -56,29 +56,29 @@ export class City {
   }
 
   initEffect() {
-    // new Background(this.scene)
+    new Background(this.scene)
 
-    // new Radar(this.scene, this.time)
+    new Radar(this.scene, this.time)
 
-    // new Wall(this.scene, this.time)
+    new Wall(this.scene, this.time)
 
-    // new Circle(this.scene, this.time)
+    new Circle(this.scene, this.time)
 
-    // new Ball(this.scene, this.time)
+    new Ball(this.scene, this.time)
 
-    // new Cone(this.scene, this.top, this.height)
+    new Cone(this.scene, this.top, this.height)
 
-    // new Fly(this.scene, this.time)
+    new Fly(this.scene, this.time)
 
-    // new Road(this.scene, this.time)
+    new Road(this.scene, this.time)
 
-    // new Font(this.scene)
+    new Font(this.scene)
 
     // 下雪效果
     // this.effect.snow = new Snow(this.scene)
 
     // 下雨效果
-    // this.effect.rain = new Rain(this.scene)
+    this.effect.rain = new Rain(this.scene)
 
     this.effect.smoke = new Smoke(this.scene)
 
